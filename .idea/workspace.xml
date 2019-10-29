@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="314dde18-2947-4fc0-82c9-424f61037a76" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SdzGdujlIFDPSUHfIAOmlsoi96" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CallingCodes-master" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lv.proofit.policy.service" />
+      <recent name="lv.proofit.policy.model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lv.proofit.policy.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PremiumCalculatorTest.subObjSortTest">
+    <configuration name="CoefficientCalculationTest.getCoefficient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolicyCalculation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.proofit.policy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.proofit.policy.service" />
+      <option name="MAIN_CLASS_NAME" value="lv.proofit.policy.service.CoefficientCalculationTest" />
+      <option name="METHOD_NAME" value="getCoefficient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PremiumCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolicyCalculation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.proofit.policy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.proofit.policy.service" />
+      <option name="MAIN_CLASS_NAME" value="lv.proofit.policy.service.PremiumCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PremiumCalculatorTest.calculateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolicyCalculation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.proofit.policy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.proofit.policy.service" />
+      <option name="MAIN_CLASS_NAME" value="lv.proofit.policy.service.PremiumCalculatorTest" />
+      <option name="METHOD_NAME" value="calculateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PremiumCalculatorTest.subObjSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolicyCalculation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.proofit.policy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.proofit.policy.service" />
+      <option name="MAIN_CLASS_NAME" value="lv.proofit.policy.service.PremiumCalculatorTest" />
+      <option name="METHOD_NAME" value="subObjSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PremiumCalculatorTest.sumAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolicyCalculation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.proofit.policy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.proofit.policy.service" />
+      <option name="MAIN_CLASS_NAME" value="lv.proofit.policy.service.PremiumCalculatorTest" />
+      <option name="METHOD_NAME" value="sumAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PremiumCalculatorTest.subObjSortTest" />
+        <item itemvalue="JUnit.PremiumCalculatorTest.sumAllTest" />
+        <item itemvalue="JUnit.PremiumCalculatorTest.calculateTest" />
+        <item itemvalue="JUnit.PremiumCalculatorTest" />
+        <item itemvalue="JUnit.CoefficientCalculationTest.getCoefficient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="314dde18-2947-4fc0-82c9-424f61037a76" name="Default Changelist" comment="" />
+      <created>1571908165233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571908165233</updated>
+      <workItem from="1571908168940" duration="2828000" />
+      <workItem from="1571917399860" duration="6558000" />
+      <workItem from="1572255259853" duration="266000" />
+      <workItem from="1572258590319" duration="11246000" />
+      <workItem from="1572270689270" duration="3764000" />
+      <workItem from="1572341897586" duration="19615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/constants/RiskType.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/model/Price.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/model/PolicyObject.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/model/Coefficient.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/model/PriceRange.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/service/PremiumCalculator.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/constants/PolicyStatus.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/service/CoefficientCalculation.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/model/CoefficientList.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/model/PolicySubObject.java
+/home/alex/Documents/projects/PolicyCalculation/src/main/java/lv/proofit/policy/model/Policy.java
