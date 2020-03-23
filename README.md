@@ -1,4 +1,3 @@
-README for the assessment project. If you look at this file in Gitlab/Eclipse/IDEA, the Markdown formatting will be applied.
 
 ## Introduction ##
 
