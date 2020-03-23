@@ -1,5 +1,8 @@
 package lv.proofit.policy.model;
 
+/**
+ *  Coefficient for calculation of  price range {@link PriceRange} objects.
+ */
 public class Coefficient {
     private double coef;
     private PriceRange priceRange;

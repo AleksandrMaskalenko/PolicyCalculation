@@ -1,5 +1,8 @@
 package lv.proofit.policy.model;
 
+/**
+ * {@link Price} range (min/max).
+ */
 public class PriceRange {
     private final Price minimum;
     private final Price maximum;

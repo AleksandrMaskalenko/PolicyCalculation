@@ -2,6 +2,9 @@ package lv.proofit.policy.model;
 
 import java.util.Collection;
 
+/**
+ * A {@link PolicyObject}
+ */
 public class PolicyObject {
 
     private String flat;

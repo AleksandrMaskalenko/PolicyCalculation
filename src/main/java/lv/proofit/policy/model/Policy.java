@@ -5,7 +5,7 @@ import lv.proofit.policy.constants.PolicyStatus;
 import java.util.Collection;
 
 /**
- * A list of {@link Price} objects.
+ * A {@link Policy} object.
  */
 public class Policy {
 

@@ -3,6 +3,9 @@ package lv.proofit.policy.model;
 import lv.proofit.policy.constants.RiskType;
 import java.util.List;
 
+/**
+ * A list of {@link Coefficient} objects.
+ */
 public class CoefficientList {
     private RiskType type;
     private List<Coefficient> coefficientList;

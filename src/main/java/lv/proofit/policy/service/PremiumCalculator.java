@@ -9,6 +9,10 @@ import lv.proofit.policy.model.Price;
 import java.math.BigDecimal;
 import java.util.HashMap;
 
+/**
+ * Calculation premium price object {@link PremiumCalculator}.
+ *
+ */
 public class PremiumCalculator {
     private CoefficientCalculation coefficientCalculation;
 
@@ -21,7 +25,7 @@ public class PremiumCalculator {
         HashMap<RiskType, Price> map = new HashMap<>();
 
         policy.getPolicyObjectList().forEach(p -> subObjSort(p, map));
-        policy.setPremium(sumAll(map));
+        policy.setPremium(sumAllPrices(map));
     }
 
     public void subObjSort(PolicyObject policyObject, HashMap<RiskType, Price> map) {
@@ -39,7 +43,7 @@ public class PremiumCalculator {
 
     }
 
-    public Price sumAll(HashMap<RiskType, Price> map) {
+    public Price sumAllPrices(HashMap<RiskType, Price> map) {
         Price premium = new Price(0);
 
         for (RiskType key : map.keySet()) {

@@ -22,7 +22,7 @@ public class CoefficientCalculation {
                 .get();
 
         Coefficient coefficient = list.find(price);
-        return new BigDecimal(coefficient.getCoef());
+        return BigDecimal.valueOf(coefficient.getCoef());
 
     }
 

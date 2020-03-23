@@ -78,6 +78,50 @@ class PremiumCalculatorTest {
     }
 
     @Test
+    public void calculateTest1() {
+        PolicySubObject policySubObjectWater = new PolicySubObject("TV", new Price(new BigDecimal(8)), RiskType.WATER);
+        PolicySubObject policySubObjectFire = new PolicySubObject("TV", new Price(new BigDecimal(100)), RiskType.FIRE);
+
+        ArrayList<PolicySubObject> policySubObjects = new ArrayList<PolicySubObject>();
+        policySubObjects.add(policySubObjectWater);
+        policySubObjects.add(policySubObjectFire);
+
+
+        PolicyObject policyObject = new PolicyObject("A flat1", policySubObjects);
+
+        ArrayList<PolicyObject> policyObjectArrayList = new ArrayList<PolicyObject>();
+        policyObjectArrayList.add(policyObject);
+
+        Policy policy = new Policy("LV19-07-100000-1", PolicyStatus.APPROVED, policyObjectArrayList);
+        PremiumCalculator premiumCalculator = new PremiumCalculator(coefficientCalculation);
+        premiumCalculator.calculate(policy);
+
+        assertEquals(new Price(2.10), policy.getPremium());
+    }
+
+    @Test
+    public void calculateTest2() {
+        PolicySubObject policySubObjectWater = new PolicySubObject("TV", new Price(new BigDecimal(100)), RiskType.WATER);
+        PolicySubObject policySubObjectFire = new PolicySubObject("TV", new Price(new BigDecimal(500)), RiskType.FIRE);
+
+        ArrayList<PolicySubObject> policySubObjects = new ArrayList<PolicySubObject>();
+        policySubObjects.add(policySubObjectWater);
+        policySubObjects.add(policySubObjectFire);
+
+
+        PolicyObject policyObject = new PolicyObject("A flat1", policySubObjects);
+
+        ArrayList<PolicyObject> policyObjectArrayList = new ArrayList<PolicyObject>();
+        policyObjectArrayList.add(policyObject);
+
+        Policy policy = new Policy("LV19-07-100000-1", PolicyStatus.APPROVED, policyObjectArrayList);
+        PremiumCalculator premiumCalculator = new PremiumCalculator(coefficientCalculation);
+        premiumCalculator.calculate(policy);
+
+        assertEquals(new Price(16.50), policy.getPremium());
+    }
+
+    @Test
     void subObjSortTest() {
         PolicySubObject policySubObjectWater1 = new PolicySubObject("TV", new Price(new BigDecimal(8)), RiskType.WATER);
         PolicySubObject policySubObjectFire1 = new PolicySubObject("TV", new Price(new BigDecimal(70)), RiskType.FIRE);
@@ -113,6 +157,6 @@ class PremiumCalculatorTest {
         map.put(RiskType.FIRE, new Price(70));
         map.put(RiskType.WATER, new Price(10));
 
-        assertEquals(new Price(1.41), premiumCalculator.sumAll(map));
+        assertEquals(new Price(1.41), premiumCalculator.sumAllPrices(map));
     }
 }

@@ -1,7 +1,12 @@
 package lv.proofit.policy.model;
 
 import lv.proofit.policy.constants.RiskType;
+import lv.proofit.policy.service.PremiumCalculator;
 
+/**
+ * Calculation premium price object {@link PremiumCalculator}.
+ *
+ */
 public class PolicySubObject {
 
     private String name;

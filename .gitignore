@@ -1,0 +1,10 @@
+*.class
+
+# Package Files #
+*.war
+*.ear
+*.db
+*.jar
+.idea/*
+
+vcs.xml
