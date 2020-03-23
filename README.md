@@ -30,7 +30,7 @@ COEFFICIENT_WATER - by default 0.1 but if SUM_INSURED_WATER equal or greater tha
 
 * Git
 * Java 8
-* Maven min version as defined per maven enforcer plugin
+* Maven
 * jUnit 5
 
 
